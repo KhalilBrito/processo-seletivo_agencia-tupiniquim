@@ -1,0 +1,281 @@
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    font-family: DejaVu Sans;
+}
+
+
+.cabecalho{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    padding: 24px;
+    margin-bottom: 35px;
+}
+
+.cabecalho_imagem{
+    width: 100px;
+} 
+
+.cabecalho_menu{
+    margin-right: auto;
+    display: flex;
+    gap: 60px;
+}
+
+.cabecalho_menu_item{
+    font-family: DejaVu Sans;
+    padding-top: 5px;
+    color: #82809c;
+}
+
+.conteudo{
+    margin-bottom: 120px;
+    padding: 24px;
+}
+
+.introducao{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.introducao_imagem{
+    width: 50%;
+    margin-left: 90px;
+}
+
+.introducao_texto{
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+}
+
+.introducao_texto_titulo{
+    width: 50%;
+    font-weight: normal;
+    font-size: 36px;
+    color: #5712a6;
+}
+
+.introducao_texto_subtitulo{
+    width: auto;
+    font-size: 15px;
+    color: #82809c;
+}
+
+.introducao_texto_botao{
+    color: #ffffff;
+    font-weight: 600;
+    width: 113px;
+    height: 36px;
+    border-radius: 6px;
+    border: 0;
+    background-image: linear-gradient(45deg, #7D21E8, #26E0FA 100%);
+}
+
+
+.introducao_texto_botao:hover{
+    transform: scale(1.05);
+}    
+
+.linha_reta{
+    text-align: center;
+    margin: 80px;
+}
+
+
+.etapas{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+    margin-bottom: 100px;
+}
+
+.etapas_titulo{
+    text-align: center;
+    margin: 40px;
+    color: #5712a6;
+    font-weight: normal;
+}
+
+.etapas_quadro{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.etapas_quadro_imagem{
+    width: auto;
+}
+
+.etapas_quadro_titulo{
+    font-weight: normal;
+    color: #5712a6;
+    margin: 20px;
+}
+
+.etapas_quadro_subtitulo{
+    font-size: 16px;
+    color: #82809c;
+    margin: 20px;
+    text-align: center;
+}
+
+.descricao{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.descricao_imagem{
+    width: 50%;
+}
+
+.descricao_conteudo{
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+    margin-bottom: 150px;
+}   
+
+.descricao_conteudo_texto{
+    font-weight: normal;
+    font-size: 20px;
+    color: #82809c;
+}
+
+.descricao_conteudo_link{
+    color: #2678fa;
+    font-weight: 600;
+    margin-top: 50px;
+}
+
+.linha_reta_descricao{
+    margin-bottom: 120px;
+}
+
+.safety{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    margin-bottom: 120px;
+}
+
+.safety_conteudo{
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+    margin-top: 600px;
+    margin-left: 80px;
+    text-align: left;
+}
+
+.linha_reta_safety{
+    margin-bottom: 50px;
+}
+
+.safety_conteudo_titulo{
+    font-weight: normal;
+    font-size: 30px;
+    color: #5712a6;
+    margin-bottom: 80px;
+    text-align: left;
+}
+
+.safety_conteudo_subtitulo{
+    font-weight: normal;
+    font-size: 20px;
+    color: #82809c;
+
+}
+
+.safety_conteudo_subtitulo strong{
+    font-weight: 600;
+    color: #5712a6;
+    position: relative;
+}
+
+.safety_conteudo_subtitulo strong::after{
+    content: "";
+    position: absolute;
+    bottom: -5px;
+    left: 0;
+    width: 100%;
+    height: 5px;
+    background-image: url('/Imagens\ Recortadas/linha-reta-teste-programador.png.jpg');
+    background-repeat: repeat-x;
+    background-size: auto 100%;
+    content:'';
+}
+
+.safety_conteudo_link{
+    font-weight: normal;
+    font-size: 20px;
+    color: #2678fa;
+    margin-top: 30px;
+}
+
+.safety_imagem{
+    width: 45%;
+}
+
+.download{
+    position: relative;
+    width: 100%;
+    max-width: 100%;
+}
+
+.download_imagem{
+    width: 100%; 
+    height: auto;
+    display: block;   
+}
+
+.download_titulo{
+    position: absolute;
+    top: 40%;
+    left: 63%;
+    transform: translate(-50%, -50%);
+    color: #4d128f;
+    font-weight: normal;
+    font-size: 25px;
+}
+
+.register{
+    display: flex;
+    flex-direction: row;
+    align-items: center;    
+    justify-content: space-around;
+    margin-top: 120px;
+}
+
+.register_div{
+    gap: 24px;
+    text-align: left;
+}
+
+.register_div_titulo{
+    font-weight: normal;
+    font-size: 30px;
+    color: #5712a6;
+    margin-bottom: 80px;
+}
+
+
+.register_div_seta{
+    float: right;
+}
+
+footer img{
+    width: 100%;
+    height: auto;
+    display: block;
+}
