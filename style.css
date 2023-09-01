@@ -14,7 +14,9 @@
 }
 
 .cabecalho_imagem{
-    width: 100px;
+    max-width: 100px;
+    max-height: 100px;
+    
 } 
 
 .cabecalho_menu{
@@ -246,7 +248,7 @@
     left: 0;
     width: 100%;
     height: 5px;
-    background-image: url('/Imagens\ Recortadas/linha-reta-teste-programador.png.jpg');
+    background-image: url('/Imagens-Recortadas/linha-reta-teste-programador.png.jpg');
     background-repeat: repeat-x;
     background-size: auto 100%;
     content:'';
@@ -271,6 +273,7 @@
 
 .download_imagem{
     width: 100%; 
+    max-width: 100%;
     height: auto;
     display: block;   
 }
@@ -331,7 +334,6 @@
 .register_div_seta{
     float: right;
 }
-
 
 .footer_fundo{
     width: 100%;
@@ -457,8 +459,245 @@
     font-size: 20px;
 }
 
+.cabecalho_menu_mobile_toggle {
+    display: none;
+    cursor: pointer;
+}
+
+@media screen and (max-width: 768px) {
+
+    .cabecalho_menu_mobile_toggle {
+        display: flex;
+        flex-direction: row-reverse;
+        align-items: self-start;
+        justify-content: space-evenly;
+    }
 
 
+    .cabecalho_menu,
+    .cabecalho_login {
+        display: none;
+    }
+
+    .cabecalho_menu_mobile {
+        display: flex;
+        flex-direction: column;
+    }
+
+    *{
+        margin: 0;
+        padding: 0;
+        text-decoration: none;
+        font-family: DejaVu Sans;
+    }
+    
+    .introducao {
+        display: flex;
+        flex-direction: column;
+        align-items:flex-end;
+        padding: 0;
+        margin: 0;
+    }
+
+    .introducao_texto {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        margin: 0;
+        padding: 50px;
+    }
+
+    .introducao_imagem {
+        display: flex;
+        width: 100%;
+        margin: 0;
+        padding: 0;
+        margin-top: 40px;
+    }
+
+    .introducao_texto_titulo {
+        display: flex;
+        justify-content: center;
+        font-size: 30px;
+        margin: 0;
+        padding: 0;
+        width: 100%;
+    }
+
+    .introducao_texto_subtitulo {
+        font-size: 15px;
+        width: 100%;
+        margin-bottom: 20px;
+    }
+
+    .linha_reta {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .linha_reta img{
+        width: auto;
+        height: auto;
+        margin: auto;
+    }
+
+    .etapas_titulo {
+        font-size: 20px;
+        margin: auto;
+        padding: 0;
+        width: 100%;
+        margin-top: 20px;
+    }
+
+    .etapas {
+        display: flex;
+        flex-direction: column;
+        justify-content:center;
+        padding: 0;
+    }
+
+    .etapas_quadro {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-between;
+        margin: 0;
+        padding: 0;
+        width: 100%;
+    }
+
+    .etapas_quadro_imagem {
+        width: 100%;
+        margin: 0;
+        padding: 0;
+    }
+
+    .descricao {
+        display: flex;
+        flex-direction: column-reverse;
+        justify-content: center;
+        padding: 0;
+    }
+
+    .descricao_imagem {
+        width: 100%;
+        margin: 0;
+        padding: 0;
+    }
+
+    .descricao_conteudo {
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+        margin: 0;
+        padding: 0;
+        width: 50%;
+    }
+
+    .safety {
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        padding: 0;
+        margin-top: -500px;
+        margin-bottom: 200px;
+    }
+
+    .safety_imagem {
+        width: 100%;
+        margin: 0;
+        padding: 0;
+    }
+
+    .download_imagem{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        padding: 0;
+        position: relative;
+        height: 300px;
+        width: 100%;
+    }
+
+    .download_conteudo{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+    }
+
+    .download_titulo{
+        position: absolute;
+        font-weight: normal;
+        font-size: 12px;
+    }
+
+    .register{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        padding: 0;
+        margin-top: 100px;
+    }
+
+    .register_div{
+        gap: 10px;
+        margin: 15px;
+        margin-bottom: 100px;
+    }
+
+    .register_div_titulo{
+        font-size: 20px;
+        margin: 0;
+        padding: 0;
+        width: 100%;
+    }
+
+    .register_div_linha_reta{
+        width: 71%;
+        margin-top: 30px;
+    }
+
+    .register_div_seta{
+        width: 25%;
+    }
+
+
+    .footer_fundo img{
+        position: absolute;
+        background-size: cover;
+        background-position: center bottom;
+        background-attachment: fixed;
+    }
+
+    .footer_conteudo{
+        display: flex;
+        flex-direction: column;
+        position: relative;
+    }
+
+    .footer1{
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        padding: 0;
+        margin: 0;
+    }
+
+    .footer2{
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        padding: 0;
+        margin: 0;
+        margin-top: 30px;
+    }
+
+
+}
+  
 
 
 
