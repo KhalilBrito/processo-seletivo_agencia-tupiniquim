@@ -2,7 +2,7 @@
 
 ## Descrição
 
-Este repositório contém o código-fonte e a documentação para o teste do processo seletivo da Agência Tupiniquim. O teste consiste em reproduzir o layout recebido utilizando HTML e CSS, podendo opcionalmente utilizar JavaScript.
+Este repositório contém o código-fonte e a documentação para o teste do processo seletivo da Agência Tupiniquim referente à vaga de Desenvolvedor Wordpress Júnior Home Office. O teste consiste em reproduzir o layout recebido utilizando HTML e CSS, podendo opcionalmente utilizar JavaScript.
 
 
 ## Tecnologias e Conceitos
