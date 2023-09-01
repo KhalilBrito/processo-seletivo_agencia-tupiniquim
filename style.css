@@ -9,9 +9,8 @@
 .cabecalho{
     display: flex;
     flex-direction: row;
-    align-items: center;
-    justify-content: space-around;
     margin: 20px 50px 35px 50px;
+    justify-content: space-between;
 }
 
 .cabecalho_imagem{
@@ -19,7 +18,7 @@
 } 
 
 .cabecalho_menu{
-    margin-right: auto;
+    justify-content: space-around;
     display: flex;
     gap: 60px;
 }
@@ -30,6 +29,43 @@
     padding-top: 5px;
     color: #82809c;
 }
+
+.cabecalho_login{
+    display: flex;
+    flex-direction: row;
+    gap: 40px;
+    margin-right: 45px;
+}
+
+.cabecalho_login i{
+    margin-right: 5px;
+    font-size: 15px;
+}
+
+.cabecalho_login i.bx bx-user{
+    transform: scaleX(-1);
+}
+
+.cabecalho_login a{
+    display: flex;
+    align-items: center;
+    margin: 0;
+    font-size: 13px;
+}
+
+.cabecalho_login_botao{
+    margin: auto;
+    color: #2678fa;
+    font-weight: 500;
+    width: 100px;
+    height: 26px;
+    border-style: solid;
+    border-radius: 6px;
+    border-width: 1px;
+    border-color: #77a4ee;
+    background-color: #ffffff;
+}
+
 
 .conteudo{
     margin-bottom: 120px;
@@ -239,6 +275,12 @@
     display: block;   
 }
 
+.download_conteudo{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;  
+}
+
 .download_titulo{
     position: absolute;
     top: 40%;
@@ -247,6 +289,22 @@
     color: #4d128f;
     font-weight: normal;
     font-size: 25px;
+}
+
+.download_button{
+    position: absolute;
+    top: 50%;
+    left: 43%;
+    width: 33%;
+}
+
+.download_linha_reta{
+    position: absolute;
+    top: 25%;
+    left: 45%;
+    width: 8%;
+    height: 10px;
+    filter: sepia(100%) saturate(0%) brightness(2.0);
 }
 
 .register{
@@ -298,7 +356,6 @@
     gap: 35px;
     align-items: flex-start;
     padding: 100px;
-
 }
 
 .footer1 i{
