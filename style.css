@@ -459,7 +459,7 @@
     font-size: 20px;
 }
 
-.cabecalho_menu_mobile_toggle {
+.cabecalho_menu_mobile_toggle, .cabecalho_menu_mobile {
     display: none;
     cursor: pointer;
 }
